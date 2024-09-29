@@ -1,0 +1,113 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 509
+  ClientWidth = 536
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 180
+    Top = 13
+    Width = 163
+    Height = 35
+    Caption = 'Laberinto'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -30
+    Font.Name = 'Stencil'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 453
+    Top = 319
+    Width = 75
+    Height = 25
+    Caption = 'Pintar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 453
+    Top = 224
+    Width = 75
+    Height = 25
+    Caption = 'generar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object SGA: TStringGrid
+    Left = 25
+    Top = 54
+    Width = 422
+    Height = 371
+    Color = clWhite
+    ColCount = 20
+    DefaultColWidth = 15
+    DefaultRowHeight = 15
+    FixedColor = clWhite
+    FixedCols = 0
+    RowCount = 20
+    FixedRows = 0
+    GradientEndColor = clSilver
+    GridLineWidth = 0
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 453
+    Top = 271
+    Width = 75
+    Height = 25
+    Caption = 'Recorrido'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 453
+    Top = 54
+    Width = 75
+    Height = 25
+    Caption = 'FACIL'
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 453
+    Top = 85
+    Width = 75
+    Height = 25
+    Caption = 'MEDIO'
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 453
+    Top = 116
+    Width = 75
+    Height = 25
+    Caption = 'DIFICIL'
+    TabOrder = 6
+  end
+end
